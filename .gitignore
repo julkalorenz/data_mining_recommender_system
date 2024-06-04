@@ -2,3 +2,5 @@ data/*
 dataBig/*
 *.zip
 /ml-latest
+model_data/*
+test_data/*
