@@ -25,9 +25,13 @@ The dataset utilized for training the predictive model is readily available thro
 `final_notebook.ipynb` - file where we split the ratings into test and training datasets, generate and train our model, and test it
 `model_predictor.ipynb` - to use our predictor on our already trained model.
 
-How to use our model?
-1. Our predictor utilizes the training results avaliable in `model_data` directory.
-2. To use the model with custom test pairs, put them into csv file `test_data/tests.csv`.
+### How to use our model?
+#### Training and testing
+To **train and test** the model, run the `final_notebook.ipynb`.
+#### Only testing
+To **skip**  the **training** process and only **test** the model, run the `model_predictor.ipynb` and follow instructions in the commented out cell. The predictor utilizes the training results avaliable in `model_data` directory.
+#### Using custom data
+To use the model with custom test pairs, put them into csv file `test_data/tests.csv` and run the `model_predictor.ipynb`.
 
 
 
